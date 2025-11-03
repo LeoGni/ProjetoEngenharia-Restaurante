@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Admin - Controle de Estoque</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <a href="../cardapio.html" class="icon material-icons" style="color: white; text-decoration: none;">arrow_back</a>
+            <h1>Controle de Estoque</h1>
+            <div></div>
+        </header>
+        <main class="main-content">
+            <div class="tabs">
+                <button class="tab-button active">Adicionar Item</button>
+                <button class="tab-button">Remover Item</button>
+                <button class="tab-button">Importar CSV</button>
+            </div>
+            <h2 class="page-title" style="margin-top: 20px;">Itens em Estoque</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Qtd.</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="stock-table-body">
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary btn-save" style="margin-top: 20px;">Salvar Alterações</button>
+        </main>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

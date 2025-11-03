@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Pedido</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <a href="cardapio.html" class="icon material-icons" style="color: white; text-decoration: none;">arrow_back</a>
+            <h1>Meu Pedido</h1>
+            <div></div>
+        </header>
+        <main class="main-content">
+            <h2 class="page-title">Itens do Pedido</h2>
+
+            <div id="cart-items-container">
+            </div>
+
+            <div class="card" style="margin-top: 30px;">
+                <h2 class="page-title">Total do Pedido</h2>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                    <span>Subtotal:</span>
+                    <strong id="subtotal-value">R$ 0,00</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+                    <span>Taxa de Serviço (10%):</span>
+                    <strong id="tax-value">R$ 0,00</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 20px;">
+                    <span>Total:</span>
+                    <strong id="total-value">R$ 0,00</strong>
+                </div>
+            </div>
+
+            <a href="pagamento.html" class="btn btn-primary" style="margin-top: 20px;">Finalizar Compra</a>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

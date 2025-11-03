@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <h1><span class="material-icons icon-chef">restaurant</span> Cardápio</h1>
+            <a href="meu-pedido.html" class="icon material-icons" style="color: white; text-decoration: none;">shopping_cart</a>
+        </header>
+
+        <main class="main-content">
+            <div class="form-group">
+                <input type="text" placeholder="🔍 Buscar no cardápio...">
+            </div>
+
+            <div class="tabs">
+                <button class="tab-button active" data-filter="principais">Pratos Principais</button>
+                <button class="tab-button" data-filter="sobremesas">Sobremesas</button>
+                <button class="tab-button" data-filter="bebidas">Bebidas</button>
+            </div>
+
+            <div id="menu-container">
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="cardapio.html" class="nav-item" id="nav-cardapio">
+                <span class="material-icons">restaurant_menu</span>
+                <span>Cardápio</span>
+            </a>
+            <a href="favoritos.html" class="nav-item" id="nav-favoritos">
+                <span class="material-icons">favorite</span>
+                <span>Favoritos</span>
+            </a>
+            <a href="historico.html" class="nav-item" id="nav-historico">
+                <span class="material-icons">history</span>
+                <span>Histórico</span>
+            </a>
+            <a href="perfil.html" class="nav-item" id="nav-perfil">
+                <span class="material-icons">person</span>
+                <span>Perfil</span>
+            </a>
+        </nav>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

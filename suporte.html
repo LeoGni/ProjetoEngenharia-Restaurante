@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento ao Cliente</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .chat-box {
+            height: 40vh;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .chat-message {
+            padding: 10px 15px;
+            border-radius: 20px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+        .user-message {
+            background-color: var(--secondary-color);
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 5px;
+        }
+        .support-message {
+            background-color: #f1f0f0;
+            color: var(--text-color);
+            align-self: flex-start;
+            border-bottom-left-radius: 5px;
+        }
+        .chat-input {
+            display: flex;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <a href="cardapio.html" class="icon material-icons" style="color: white; text-decoration: none;">arrow_back</a>
+            <h1><span class="material-icons icon-chef">support_agent</span> Atendimento ao Cliente</h1>
+            <div></div>
+        </header>
+        <main class="main-content">
+            <h2 class="page-title">Sua Conversa com o Suporte</h2>
+            <div class="chat-box">
+                <div class="chat-message support-message">Olá, tenho problema com meu último pedido. O item veio errado.</div>
+                <div class="chat-message support-message">Olá! Pedimos desculpas pelo ocorrido. Qual o número de seu pedido?</div>
+                <div class="chat-message user-message">Olá, tenho um problema com meu último pedido.</div>
+                <div class="chat-message user-message">É o pedido #20231026-001</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Digite sua mensagem..." style="border-radius: 20px 0 0 20px;">
+                <button type="button" class="btn btn-primary" style="width: auto; border-radius: 0 20px 20px 0;">
+                    <span class="material-icons">send</span>
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

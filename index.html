@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-body">
+    <div class="auth-container card">
+        <h1>Entrar na sua conta</h1>
+        <form id="login-form" style="margin-top: 20px;">
+            <div class="form-group">
+                <label for="email">E-mail universitário</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+            <p id="error-message" style="color: red; text-align: center; margin-top: 10px;"></p>
+            <p style="text-align: center; margin-top: 15px;">
+                Não tem conta? <a href="cadastro.html">Crie agora</a>
+            </p>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

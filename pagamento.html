@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <a href="meu-pedido.html" class="icon material-icons" style="color: white; text-decoration: none;">arrow_back</a>
+            <h1>Pagamento</h1>
+            <div></div>
+        </header>
+        <main class="main-content">
+            <h2 class="page-title">Métodos de Pagamento</h2>
+            <div class="tabs">
+                <button class="tab-button active">Cartão de Crédito/Débito</button>
+                <button class="tab-button">PIX</button>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label>Nome no Cartão</label><input type="text">
+                </div>
+                <div class="form-group">
+                    <label>Número do Cartão</label><input type="text">
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Validade (MM/AA)</label><input type="text">
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>CVV</label><input type="text">
+                    </div>
+                </div>
+            </form>
+            <button type="button" class="btn btn-primary btn-finish-purchase" style="margin-top: 20px;">Pagar com Cartão</button>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

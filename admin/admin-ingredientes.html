@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Ingredientes</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <a href="../cardapio.html" class="icon material-icons" style="color: white; text-decoration: none;">arrow_back</a>
+            <h1>Controle de Ingredientes</h1>
+            <div></div>
+        </header>
+        <main class="main-content">
+            <h2 class="page-title">Lista de Ingredientes</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table" id="ingredients-table">
+                    <thead>
+                        <tr>
+                            <th>Ingrediente</th>
+                            <th>Fornecedor</th>
+                            <th>Última Compra</th>
+                            <th>Qtd. Recebida</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ingredients-table-body">
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="page-title" style="margin-top: 30px;">Histórico de Compras e Entregas</h2>
+            <div style="overflow-x: auto;">
+                <table class="data-table" id="purchases-table">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Fornecedor</th>
+                            <th>Ingrediente</th>
+                            <th>Quantidade</th>
+                            <th>Valor Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="purchases-table-body">
+                    </tbody>
+                </table>
+            </div>
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button type="button" class="btn btn-primary btn-save">Salvar Alterações</button>
+                <button type="button" class="btn btn-secondary">Novo Ingrediente</button>
+            </div>
+        </main>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
