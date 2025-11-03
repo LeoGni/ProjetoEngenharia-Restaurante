@@ -13,7 +13,7 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 🔗 **Site Oficial:** [https://leogni.github.io/ProjetoEngenharia-Restaurante/index.html](https://leogni.github.io/ProjetoEngenharia-Restaurante/index.html)
 
 🎥 **Demonstração em Vídeo:** *(link do YouTube será adicionado aqui)*  
-> 💡 Insira aqui o link do vídeo mostrando o funcionamento do sistema.
+> 💡 https://youtu.be/uB_a4vHs6i8
 
 ---
 
