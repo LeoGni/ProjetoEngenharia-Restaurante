@@ -91,7 +91,7 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 │ └── storage.js
 └── /assets
 ├── logo.png
-└── icons/  
+└── icons/
 
 
 ---
@@ -106,11 +106,12 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 
 ## 👨‍💻 Equipe de Desenvolvimento
 | Integrante |
-|-------------|---------|
-| **Pedro Schwank** | 
-| **Felipe Falcon** | 
-| **Matheus Concon** | 
-| **Leonardo Guadagni** | 
+|-------------|
+| **Pedro Schwank** <br> |
+| **Felipe Falcon** <br> |
+| **Matheus Concon** <br> |
+| **Leonardo Guadagni** <br> |
+
 
 ---
 
