@@ -75,6 +75,7 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 ---
 
 ## 📦 Estrutura de Pastas
+```bash
 /trabalho
 ├── index.html
 ├── cadastro.html
@@ -83,15 +84,15 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 ├── carrinho.html
 ├── admin-permissoes.html
 ├── /css
-│ └── style.css
+│   └── style.css
 ├── /js
-│ ├── main.js
-│ ├── auth.js
-│ ├── admin.js
-│ └── storage.js
+│   ├── main.js
+│   ├── auth.js
+│   ├── admin.js
+│   └── storage.js
 └── /assets
-├── logo.png
-└── icons/
+    ├── logo.png
+    └── icons/
 
 
 ---
