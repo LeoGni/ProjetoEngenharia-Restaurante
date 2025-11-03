@@ -75,7 +75,7 @@ Este **MVP (Produto Mínimo Viável)** foca no **Frontend**, utilizando o `local
 ---
 
 ## 📦 Estrutura de Pastas
-```bash
+```
 /trabalho
 ├── index.html
 ├── cadastro.html
